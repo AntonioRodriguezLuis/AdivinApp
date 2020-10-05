@@ -97,8 +97,6 @@ public class AdivinAppController extends Application {
 
 	public static int Adivinar() {
 		int numeroAAdivinar = (int)(Math.random() * 100) + 1;
-		//borrar luego
-		System.out.println(numeroAAdivinar);
 		return numeroAAdivinar;
 		
 	}
